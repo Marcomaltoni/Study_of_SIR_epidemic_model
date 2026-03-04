@@ -79,7 +79,7 @@ The model was simulated using Python, with parameters calibrated on **Covid-19 d
 
 ### Conclusions
 * The optimal control strategy provides a vaccination rate consistent with real-world logistical capabilities.
-* However, the peak of infected individuals $ \approx 0.2$ under this control still exceeds the actual hospital capacity ($\approx 10^{-3}$), indicating that vaccination must be supported by other measures.
+* However, the peak of infected individuals ($\approx 0.2$) under this control still exceeds the actual hospital capacity ($\approx 10^{-3}$), indicating that vaccination must be supported by other measures.
 
 ---
 
