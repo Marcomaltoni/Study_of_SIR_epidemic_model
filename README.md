@@ -18,9 +18,9 @@ The work was developed as a formal report for the course *"Introduction to the P
 
 ## 🦠 Introduction
 The project analyzes a "compartmental model" where the population is divided into three classes:
-* **Susceptible ($S(t)$):** Individuals who have not contracted the disease and are at risk.
-* **Infected ($I(t)$):** Individuals who have the disease and are contagious.
-* **Removed ($R(t)$):** Individuals who have recovered and are no longer infectable.
+* **Susceptible $S(t)$:** Individuals who have not contracted the disease and are at risk.
+* **Infected $I(t)$:** Individuals who have the disease and are contagious.
+* **Removed $R(t)$:** Individuals who have recovered and are no longer infectable.
 
 The dynamics assume a constant population $N = S(t) + I(t) + R(t)$ and a unidirectional flow ($S \to I \to R$).
 
@@ -79,7 +79,7 @@ The model was simulated using Python, with parameters calibrated on **Covid-19 d
 
 ### Conclusions
 * The optimal control strategy provides a vaccination rate consistent with real-world logistical capabilities.
-* However, the peak of infected individuals ($ \approx 0.2$) under this control still exceeds the actual hospital capacity ($\approx 10^{-3}$), indicating that vaccination must be supported by other measures.
+* However, the peak of infected individuals $ \approx 0.2$ under this control still exceeds the actual hospital capacity ($\approx 10^{-3}$), indicating that vaccination must be supported by other measures.
 
 ---
 
